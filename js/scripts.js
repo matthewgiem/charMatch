@@ -36,7 +36,7 @@ $(function()  {
     place = $("#local").val();
 
     years(dob);
-    match();
+    // match();
     event.preventDefault();
   });
   $(".person1").text(name);
